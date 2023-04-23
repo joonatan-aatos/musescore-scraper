@@ -1,0 +1,28 @@
+{
+  "name": "musescore-scraper",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm src/app.ts"
+  },
+  "devDependencies": {
+    "@types/args": "^5.0.0",
+    "@types/node": "^18.16.0",
+    "@types/pdfkit": "^0.12.9",
+    "@types/selenium-webdriver": "^4.1.13",
+    "@types/svg-to-pdfkit": "^0.1.0",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.3",
+    "args": "^5.0.3",
+    "node-fetch": "^3.3.1",
+    "pdfkit": "^0.13.0",
+    "selenium-webdriver": "^4.9.0",
+    "svg-to-pdfkit": "^0.1.8",
+    "typescript": "^5.0.4"
+  }
+}
